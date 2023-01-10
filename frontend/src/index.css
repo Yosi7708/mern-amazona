@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  /* זה עושה רקע לראש העמוד */
+  background-color: #404040;
+  /* וזה מרחיק את המילה מהשוליים */
+  padding: 1rem;
+}
+/* קובע איך יראו כל הקישורים מסוג איי שבתוך ראש העמוד */
+header a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
