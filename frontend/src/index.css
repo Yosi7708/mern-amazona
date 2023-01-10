@@ -19,3 +19,32 @@ header a {
   font-weight: bold;
   text-decoration: none;
 }
+main {
+  /* להרחיק את כל ה MAIM 
+  מהקצה */
+  padding: 1rem;
+}
+.products {
+  /* to display the items one next to another */
+  display: flex;
+  /* make it responsive(?) */
+  flex-wrap: wrap;
+  /* display all in the center */
+  justify-content: center;
+}
+.product {
+  /* border for each item */
+  border: 1px #404040 solid;
+  /* space between the products */
+  margin: 1px;
+}
+.product img {
+  /* the image width will take 100% from the product's border */
+  width: 100%;
+  /* max width for image he put 400px*/
+  max-width: 300px;
+}
+.product-info {
+  /* space btw the image and the text */
+  padding: 1rem;
+}
