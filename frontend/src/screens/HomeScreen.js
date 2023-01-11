@@ -5,6 +5,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Product from '../components/Product';
 import { Helmet } from 'react-helmet-async';
+import LoadingBox from '../components/LoadingBox';
+import MessageBox from '../components/MessageBox';
 
 // import data from '../data';
 
@@ -53,9 +55,9 @@ function HomeScreen() {
         {/* הפעולה הבאה הופכת כל איבר במערך במוצרים למפה ואז ממירה כל איבר לפורמט JSX 
         שמציג את התמונה שם ומחיר */}
         {loading ? (
-          <div>loading...</div>
+          <LoadingBox />
         ) : error ? (
-          <div>{error}</div>
+          <MessageBox variant="danger">{error}</MessageBox>
         ) : (
           <Row>
             {products.map((product) => (
