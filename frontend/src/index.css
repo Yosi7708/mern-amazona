@@ -13,6 +13,10 @@ body {
 main {
   flex: 1;
 }
+.btn-primary {
+  background-color: #f0c040;
+  color: #000000;
+}
 .products {
   /* to display the items one next to another */
   display: flex;
@@ -20,6 +24,9 @@ main {
   flex-wrap: wrap;
   /* display all in the center */
   justify-content: center;
+}
+.rating span {
+  color: #ffc000;
 }
 .product {
   /* border for each item */
