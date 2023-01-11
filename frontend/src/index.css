@@ -6,23 +6,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.site-container {
+  min-height: 100vh;
+}
 
-header {
-  /* זה עושה רקע לראש העמוד */
-  background-color: #404040;
-  /* וזה מרחיק את המילה מהשוליים */
-  padding: 1rem;
-}
-/* קובע איך יראו כל הקישורים מסוג איי שבתוך ראש העמוד */
-header a {
-  color: #ffffff;
-  font-weight: bold;
-  text-decoration: none;
-}
 main {
-  /* להרחיק את כל ה MAIM 
-  מהקצה */
-  padding: 1rem;
+  flex: 1;
 }
 .products {
   /* to display the items one next to another */
@@ -36,13 +25,13 @@ main {
   /* border for each item */
   border: 1px #404040 solid;
   /* space between the products */
-  margin: 1px;
+  margin: 1rem;
 }
 .product img {
   /* the image width will take 100% from the product's border */
   width: 100%;
   /* max width for image he put 400px*/
-  max-width: 300px;
+  max-width: 400px;
 }
 .product-info {
   /* space btw the image and the text */
