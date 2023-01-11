@@ -44,3 +44,6 @@ main {
   /* space btw the image and the text */
   padding: 1rem;
 }
+.img-large {
+  max-width: 100%;
+}

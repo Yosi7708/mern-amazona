@@ -20,7 +20,7 @@ function App() {
         </header>
         <main>
           {/* we moved all the content of the home page to element that called HomeScreen */}
-          <Container>
+          <Container className="mt-3">
             <Routes>
               <Route path="/product/:slug" element={<ProductScreen />} />
               <Route path="/" element={<HomeScreen />} />
